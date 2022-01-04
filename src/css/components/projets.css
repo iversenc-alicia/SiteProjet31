@@ -1,0 +1,28 @@
+.projet {
+    width: 147px;
+    height: 162px;
+    border: var(--Green) 2px solid ;
+    background-color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projet__nom {
+    font-size: 14.5px;
+    color: var(--Blue);
+}
+
+.projet__auteur {
+    font-size: 14.5px;
+    color: var(--Blue);
+}
+
+.projet__trait {
+    display: flex;
+    border-top: 2px solid;
+    color: var(--Blue);
+    width: 68px;
+}
