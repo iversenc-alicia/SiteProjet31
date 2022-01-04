@@ -67,4 +67,20 @@ p {
     font-size: 14px;
 }
 
+.title__trait, .legende__trait {
+    display: flex;
+    border-top: 2px solid;
+    color: var(--Green);
+    margin-left: 0px;
+    margin-right: auto;
+}
 
+.title__trait {
+    width: 190px ;
+    margin-top: -5px;
+}
+
+.legende__trait {
+    width: 350px;
+    border-top: 1px solid;
+}
