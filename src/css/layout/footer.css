@@ -1,3 +1,15 @@
 footer {
     background-color: var(--Blue);
+   text-align: center;
+   padding-right: 50px;
+   padding-left: 50px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+}
+
+.footer__text, .footer__mailto {
+    color: var(--White);
+    font-style: Open sans;
+    font-size: 14px;
+    font-weight: lighter;
 }
