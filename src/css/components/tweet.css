@@ -1,17 +1,25 @@
-.tweet {
+.tweets {
     display: block;
 
 }
+
+.tweet__card{
+    position: relative;
+    margin-top: 60px;
+}
 .tweet__img {
-    display: block;
+    display: flex;
     width: 55px;
     margin-left : 7px;
     z-index: 2;
     position : relative;
-    margin-bottom: -120px;
-
+    margin-bottom: -100px;
+    top: 10px;
 }
 
+.tweet__card strong {
+    font-weight: normal
+}
 .tweet__background--img {
     display : block;
     height: 150px;
@@ -32,4 +40,13 @@
     position : relative;
     z-index: 2;
     margin-left: 70px;
+}
+
+.tweet__link {
+    position : absolute;
+    display: block;
+    z-index: 2;
+    font-weight: bold;
+    color: var(--Black);
+    right: 10px;
 }
