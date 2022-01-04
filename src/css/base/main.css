@@ -42,14 +42,14 @@ a {
 
 }
 
-
-
 .Hero__intro {
     display: block;
     background-color: var(--White);
-    margin-top: -40px;
+    margin-top: -67px;
     margin-left: 31px;
     margin-right: 34px;
+    text-align: center;
+    padding : 5px
 }
 
 p {
