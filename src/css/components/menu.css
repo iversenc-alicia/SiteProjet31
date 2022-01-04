@@ -23,13 +23,10 @@
 
 .menu__list {
     margin-top: 23%;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 0%;
 }
 
 .menu__item {
-    position: center;
-    text-align: center;
     margin-top: 8%;
     margin-bottom: 8%;
 }
@@ -37,22 +34,14 @@
 .menu__link {
     color: var(--Black);
     text-decoration: none;
-    text-align: center;
-    position: center;
 }
 
-.menu__trait {
-    display: flex;
-    color: var(--White);
-    border-top: 2px solid;
-    width : 30%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left : auto;
-    margin-right: auto;
+.menu__logopage {
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 22px;
 }
-
-
 
 button {
     -webkit-appearance: none;
