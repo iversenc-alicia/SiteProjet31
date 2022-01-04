@@ -27,3 +27,15 @@ body{
     margin-left: 31px;
     margin-right: 34px;
 }
+
+p {
+    margin-left: 35px ;
+    margin-right: 35px;
+}
+
+
+.article__title, .article__title2, q {
+    background-color: var(--Grey);
+}
+
+
