@@ -15,7 +15,6 @@ font-family: 'Rajdhani', sans-serif;*/
 @import url(./components/menu.css);
 
 /*components*/
-@import url(./components/homepage.css);
 @import url(./components/tweet.css);
 @import url(./components/frise.css);
 @import url(./components/galerie.css);
