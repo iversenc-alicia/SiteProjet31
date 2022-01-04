@@ -1,3 +1,10 @@
+h1 {
+    font-family: Rajdhani;
+    font-size: var(--heading-1);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
 .Hero__NomSite {
     font-family: Rajdhani;
     color: var(--White);
