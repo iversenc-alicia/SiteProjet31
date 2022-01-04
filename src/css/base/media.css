@@ -26,9 +26,18 @@ img{
     margin-top: -2px;
 }
 
-.article__imgPres {
-    width: 109px;
-    margin : auto
+.article__3img {
+    display: block;
+    position: center;
+
 }
 
-.article__imgPres1
+.article__imgPres {
+    width: 109px;
+}
+
+.article__imgPres1, .article__imgPres3 {
+    position: flex;
+    margin-top: -100px;
+    margin-bottom: auto;
+}

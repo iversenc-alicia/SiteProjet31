@@ -15,6 +15,11 @@ body{
 .article__title2 {
     color: var(--Blue);
     background-color: var(--White);
+    font-size: var(--heading-2);
+}
+
+.figure__legende {
+    font-size:var(--légende)
 }
 
 .Hero__NomSite {
