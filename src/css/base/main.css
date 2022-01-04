@@ -5,6 +5,7 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px
 }
+
 .Hero__NomSite {
     font-family: Rajdhani;
     color: var(--White);
@@ -45,4 +46,8 @@ p {
     background-color: var(--Grey);
 }
 
+.article__intro {
+    text-align: center;
+    font-size: 14px;
+}
 
