@@ -5,6 +5,17 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px
 }
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+    background-color: var(--White);
+}
+
+.article__title2 {
+    color: var(--Blue);
+    background-color: var(--White);
+}
 
 .Hero__NomSite {
     font-family: Rajdhani;
@@ -22,11 +33,7 @@ h1 {
 
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    font-family: Open Sans;
-}
+
 
 .Hero__intro {
     display: block;
@@ -42,7 +49,7 @@ p {
 }
 
 
-.article__title, .article__title2, q {
+.article__title, q {
     background-color: var(--Grey);
 }
 
