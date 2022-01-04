@@ -1,0 +1,23 @@
+.Hero__img {
+    display: flex;
+    margin-top: -110%;
+    z-index: 0;
+    width: 100vw;
+}
+
+.Hero__logo {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    display:flex;
+    width: 65px;
+    margin-top: 40%;
+}
+
+.Hero__Bleu {
+    background-color: var(--Blue);
+    width: 100vw;
+    height: 100px;
+    margin-top: -2px;
+}

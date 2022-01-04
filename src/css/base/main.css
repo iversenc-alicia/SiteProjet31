@@ -1,0 +1,9 @@
+.Hero__NomSite {
+    font-family: Rajdhani;
+    color: var(--White);
+    text-transform: uppercase;
+    font-size: var(--nom-site);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
