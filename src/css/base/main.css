@@ -12,6 +12,10 @@ body{
     background-color: var(--White);
 }
 
+a {
+    text-decoration: none;
+}
+
 .article__title2 {
     color: var(--Blue);
     background-color: var(--White);
