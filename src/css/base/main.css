@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.title {
+    background-color: var(--Grey);
+}
+
 .article__title2 {
     color: var(--Blue);
     background-color: var(--White);
@@ -73,6 +77,7 @@ p {
     color: var(--Green);
     margin-left: 0px;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .title__trait {
@@ -83,4 +88,14 @@ p {
 .legende__trait {
     width: 350px;
     border-top: 1px solid;
+}
+
+.apropos__img {
+    width: 78px;
+    height: auto;
+    margin-left: 11px;
+    float:left;
+    margin-left: 10px;
+    margin-top : -30%;
+
 }
