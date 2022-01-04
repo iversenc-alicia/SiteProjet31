@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{ menuIsOpen : false}" :class="menuIsOpen && 'noscroll'">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +7,24 @@
     <title>Ecosys'terre</title>
     <!--Declaration feuille de style -->
     <link rel="stylesheet" href="src/css/style.css">
+    <!--Librairie AlpineJS -->
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body>
-    <header class="header ">
+<body x-data="{atTop: true}">
+    <header class="header"
+    @scroll.window="atTop = (window.scrollY > 100 ? false : true )">
         <div class="header__start">
             <img src="./public/img/LogoSite.png" alt="Logo écosys'terre">
             <div class="header__end header__hero">
-                <button class="menu__button">
-                <span class="menu-btn__bar"></span>
-                </button>
+                <button class="menu__button"
+            @pointerdown="menuIsOpen = !menuIsOpen" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+            :class="menuIsOpen && 'menu-btn--open'">
+              <span class="menu-btn__bar"></span>
+            </button>
             </div>
         </div>
 
-        <nav class="header__menu menu">
+        <nav class="header__menu menu" :class="menuIsOpen && 'menu__open'" id="mainNav">
             
             <ul class="menu__list">
                 <li class="menu__item"><img class="menu__logopage" src="./public/img/home.png" alt="maison"><a class="menu__link" href="Index.html">Accueil</a></li>
@@ -38,9 +43,9 @@
                 <p class="text">
                     Je m'appelle LuciePolJ, je suis étudiante en première année de DUT MMI à l'IUT de Montbéliard. J'ai réalisé ce site mobile dans le cadre de mon projet individuel de premier semestre.  
                 </p>
-            <img src="./public/img/Blonde.webp" alt="Femme saluant">
+            <img class="apropos__img" src="./public/img/Blonde.webp" alt="Femme saluant">
            
-            <p class=" Text">
+            <p class="Text">
                 Intéressée par la communication et le design ainsi que tout ce qui touche au domaine du web, ce DUT a été une évidence pour moi.  
             <div class="traitnoir"></div>
                 <p class="text">
@@ -55,7 +60,6 @@
         <p class="footer__text">
             Projet réalisé dans le cadre d’un exercice pédagogique au<a class="footer__link footer__text" href=http://mmimontbeliard.com> départment MMI de Montbéliard.</a>
         </p>
-        
     </footer>
 </body>
 </html>
