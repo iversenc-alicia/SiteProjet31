@@ -1,0 +1,29 @@
+/* typo font-family: 'Open Sans', sans-serif;
+font-family: 'Rajdhani', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* vendors */
+@import url(./vendors/normalize.css);
+
+/* variables */
+@import url(./utils/variables.css);
+
+/* base */
+@import url(./base/icons.css);
+@import url(./base/main.css);
+@import url(./base/media.css);
+@import url(./components/menu.css);
+
+/*components*/
+@import url(./components/homepage.css);
+@import url(./components/tweet.css);
+@import url(./components/frise.css);
+@import url(./components/galerie.css);
+@import url(./components/glossaire.css);
+@import url(./components/button.css);
+@import url(./components/sites.css);
+@import url(./components/formulaire.css);
+
+/*layout*/
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
