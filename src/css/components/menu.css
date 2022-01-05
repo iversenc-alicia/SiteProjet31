@@ -11,8 +11,6 @@
     transform: translateX(100%);
     transition: all .6s ease;
     z-index: 5;
-    text-align: center;
-    font-size: 18px;
   }
   
 .menu__open {
@@ -24,23 +22,44 @@
 .menu__list {
     margin-top: 23%;
     padding-left: 0%;
+    position: relative;
 }
 
 .menu__item {
-    margin-top: 8%;
+    margin-top: 50px;
     margin-bottom: 8%;
+    position: relative;
+}
+
+.menu__item:last-child::before, .menu__item::after{
+content: '';
+position: absolute;
+width: 75%;
+height: 10px;
+background-color: white;
+left: 0;
+}
+
+.menu__item::after{
+  top: -30px;
+}
+
+.menu__item:last-child::before{
+  top: calc(100% + 20px);
 }
 
 .menu__link {
     color: var(--Black);
+    font: var(--Menu);
     text-decoration: none;
+    margin-left: 70px;
 }
 
 .menu__logopage {
   display: block;
-  margin-left: 10px;
-  margin-right: auto;
+  left: 37px;
   width: 22px;
+  position: absolute;
 }
 
 button {
@@ -55,4 +74,9 @@ button {
 .noscroll,
 .noscroll body {
   overflow: hidden;
+}
+
+.menu__thermometre {
+  width: 12px;
+  display: flex;
 }
