@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="src/css/style.css">
     <!--Librairie AlpineJS -->
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="./src/js/fonction.js"></script>
 </head>
 <body x-data="{atTop: true}">
     <header class="header"
@@ -91,45 +93,54 @@
         <section>
             <h2 class="article__intitle"> Vous avez aimé Autre-Monde : L’alliance des Trois ? Voici d’autres livres du même auteur:</h2>
 
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Couverture_Malronce.webp" alt="Couverture Autre monde Malronce">
+            <div class="glisse">
+                <div x-on:mouseover="monterLegende(1);"
+                x-on:mouseleave="descendreLegende(1);"  class="galerie">
+                    <div class="galerie__encadrement">
+                        <img class="galerie__img" src="/public/img/Couverture_Malronce.webp" alt="Couverture Autre monde Malronce">
+                    </div>
+                    <h3 class="galerie__title galerie__title1">Autre monde : Malronce</h3>
                 </div>
-                <h3 class="galerie__title">Autre monde : Malronce</h3>
-            </div>
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Couverture_LeCoeurDeLaTerre.webp" alt="Couverture Autre monde Le coeur de la Terre">
+                <div x-on:mouseover="monterLegende(2);"
+                x-on:mouseleave="descendreLegende(2);"  class="galerie">
+                    <div class="galerie__encadrement">
+                        <img class="galerie__img" src="/public/img/Couverture_LeCoeurDeLaTerre.webp" alt="Couverture Autre monde Le coeur de la Terre">
+                    </div>
+                    <h3 class="galerie__title galerie__title2">Autre monde : Le coeur de la Terre</h3>
                 </div>
-                <h3 class="galerie__title">Autre monde : Le coeur de la Terre</h3>
-            </div>
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Couverture_Entropia.webp" alt="Couverture Autre monde Entropia">
+                <div x-on:mouseover="monterLegende(3);"
+                x-on:mouseleave="descendreLegende(3);"  class="galerie">
+                    <div class="galerie__encadrement">
+                        <img class="galerie__img" src="/public/img/Couverture_Entropia.webp" alt="Couverture Autre monde Entropia">
+                    </div>
+                    <h3 class="galerie__title galerie__title3">Autre monde : Entropia</h3>
                 </div>
-                <h3 class="galerie__title">Autre monde : Entropia</h3>
-            </div>
 
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Couverture_Oz.webp" alt="Couverture Autre monde Oz">
+                <div x-on:mouseover="monterLegende(4);"
+                x-on:mouseleave="descendreLegende(4);"  class="galerie">
+                    <div class="galerie__encadrement">
+                        <img class="galerie__img" src="/public/img/Couverture_Oz.webp" alt="Couverture Autre monde Oz">
+                    </div>
+                    <h3 class="galerie__title galerie__title4">Autre monde : Oz</h3>
                 </div>
-                <h3 class="galerie__title">Autre monde : Oz</h3>
-            </div>
 
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Couverture_Neverland.webp" alt="Couverture Autre monde Neverland">
+                <div x-on:mouseover="monterLegende(5);"
+                x-on:mouseleave="descendreLegende(5);"  class="galerie">
+                    <div class="galerie__encadrement">
+                        <img class="galerie__img" src="/public/img/Couverture_Neverland.webp" alt="Couverture Autre monde Neverland">
+                    </div>
+                    <h3 class="galerie__title galerie__title5">Autre monde : Neverland</h3>
                 </div>
-                <h3 class="galerie__title">Autre monde : Neverland</h3>
-            </div>
+            
 
-            <div class="galerie">
+            <div x-on:mouseover="monterLegende(6);"
+            x-on:mouseleave="descendreLegende(6);"  class="galerie">
                 <div class="galerie__encadrement">
                     <img class="galerie__img" src="/public/img/Couverture_Genese.webp" alt="Couverture Autre monde Genèse">
                 </div>
-                <h3 class="galerie__title">Autre monde : Genèse</h3>
-            </div> 
+                <h3 class="galerie__title galerie__title6">Autre monde : Genèse</h3>
+            </div>
+         </div>
          </section>
 
     </main>

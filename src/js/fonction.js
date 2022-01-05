@@ -36,3 +36,28 @@ function carrousel5Images() {
         }
     });
 }
+
+function monterLegende(x) {
+    galerie__titles = document.querySelector('.galerie__title'+ x);
+    return anime ({
+      targets: galerie__titles,
+      translateY:'-5em',
+      autoplay: false,
+      duration: 300,
+      easing: 'linear'  
+    }).play;
+
+}
+
+function descendreLegende(x) {
+    
+    return anime ({
+
+        targets: galerie__titles,
+        translateY: 0,
+        autoplay: false,
+        duration: 300,
+        easing: 'linear'  
+      }).play;
+    
+}
