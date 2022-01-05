@@ -30,3 +30,9 @@
     color: var(--Blue);
     width: 68px;
 }
+
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
