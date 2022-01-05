@@ -1,5 +1,5 @@
 h1 {
-    font-family: Rajdhani;
+    font-family: 'Rajdhani';
     font-size: var(--heading-1);
     text-align: center;
     padding-top: 10px;
@@ -9,7 +9,7 @@ h1 {
 body{
     padding: 0;
     margin: 0;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     background-color: var(--White);
 }
 
@@ -26,13 +26,25 @@ a {
     background-color: var(--White);
     font-size: var(--heading-2);
 }
+.article__citation {
+    background-color: var(--Grey);
+    font-size: var(--citation);
+    font-weight: bold;
+    width: 100vw;
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: block;
+
+}
 
 .figure__legende {
-    font-size:var(--légende)
+    font-size:var(--legende)
 }
 
 .Hero__NomSite {
-    font-family: Rajdhani;
+    font-family: 'Rajdhani';
     color: var(--White);
     text-transform: uppercase;
     font-size: var(--nom-site);
@@ -63,7 +75,7 @@ p {
 }
 
 
-.article__title, q {
+.article__title {
     background-color: var(--Grey);
 }
 
@@ -118,4 +130,10 @@ p {
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.article__legende {
+    font-size: var(--legende);
+    font-family: 'open sans';
+    text-align: center;
 }

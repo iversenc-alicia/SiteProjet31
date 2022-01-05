@@ -22,6 +22,7 @@ font-family: 'Rajdhani', sans-serif;*/
 @import url(./components/button.css);
 @import url(./components/projets.css);
 @import url(./components/formulaire.css);
+@import url(./components/404.css);
 
 /*layout*/
 @import url(./layout/header.css);
