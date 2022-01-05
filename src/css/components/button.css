@@ -1,0 +1,11 @@
+.form__btn {
+    background-color: var(--Green);
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    display: block;
+    border: 1px solid var(--Black);
