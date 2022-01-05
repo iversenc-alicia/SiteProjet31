@@ -4,8 +4,11 @@
     padding: 10px;
     padding-left: 30%;
     padding-right: 30%;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 27px;
     text-align: center;
     display: block;
     border: 1px solid var(--Black);
+
+}
