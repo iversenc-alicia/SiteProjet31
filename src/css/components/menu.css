@@ -50,8 +50,10 @@ left: 0;
 
 .menu__link {
     color: var(--Black);
-    font: var(--Menu);
+    font-size: var(--menu);
+    font-family: 'Rajdhani';
     text-decoration: none;
+    font-weight: bolder;
     margin-left: 70px;
 }
 
