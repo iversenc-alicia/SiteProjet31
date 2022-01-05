@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="src/css/style.css">
     <!--Librairie AlpineJS -->
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="./src/js/fonction.js"></script>
 </head>
 <body x-data="{atTop: true}">
     <header class="header"
@@ -94,38 +96,47 @@
         <section>
             <h2 class="article__title"> Vous avez aimé le jour d’après ? Voici d’autres films du même</h2>
 
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/2012.webp" alt="Affiche 2012">
-                </div>
-                <h3 class="galerie__title">2012</h2>
-            </div>
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Independance_day.webp" alt="Affiche Independance day">
-                </div>
-                <h3 class="galerie__title">Independance day</h3>
-            </div>
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Independance_Day_Paris.webp" alt="Affiche Independance day : Resurgence">
-                </div>
-                <h3 class="galerie__title">Independance day : Resurgence</h3>
-            </div>
+            <div class="article__5img">
+                   <div class="article__carrousel">
+                    <div class="galerie galerie__img1">
+                        <div class="galerie__encadrement">
+                            <img class="galerie__img" src="/public/img/2012.webp" alt="Affiche 2012">
+                        </div>
+                        <h3 class="galerie__title">2012</h2>
+                    </div>
+                    <div class="galerie galerie__img2">
+                        <div class="galerie__encadrement">
+                            <img class="galerie__img galerie__img3" src="/public/img/Independance_day.webp" alt="Affiche Independance day">
+                        </div>
+                        <h3 class="galerie__title">Independance day</h3>
+                    </div>
+                    <div class="galerie galerie__img3">
+                        <div class="galerie__encadrement">
+                            <img class="galerie__img" src="/public/img/Independance_Day_Paris.webp" alt="Affiche Independance day : Resurgence">
+                        </div>
+                        <h3 class="galerie__title">Independance day : Resurgence</h3>
+                    </div>
 
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                    <img class="galerie__img" src="/public/img/Stargate.webp" alt="Affiche Stargate la porte de étoiles">
-                </div>
-                <h3 class="galerie__title">A Stargate, la porte des étoiles</h3>
+                    <div class="galerie galerie__img4">
+                        <div class="galerie__encadrement">
+                            <img class="galerie__img" src="/public/img/Stargate.webp" alt="Affiche Stargate la porte de étoiles">
+                        </div>
+                        <h3 class="galerie__title">A Stargate, la porte des étoiles</h3>
+                    </div>
+                    
+                    <div class="galerie galerie__img5">
+                        <div class="galerie__encadrement">
+                            <img class="galerie__img" src="/public/img/Godzilla.webp" alt="Affiche Godzilla">
+                        </div>
+                        <h3 class="galerie__title">Godzilla</h3>
+                    </div>
+                   </div>
             </div>
-
-            <div class="galerie">
-                <div class="galerie__encadrement">
-                     <img class="galerie__img" src="/public/img/Godzilla.webp" alt="Affiche Godzilla">
-                </div>
-                <h3 class="galerie__title">Godzilla</h3>
-            </div>
+            <script>
+			
+                carrousel5Images();
+                
+            </script>
 
          </section>
 
