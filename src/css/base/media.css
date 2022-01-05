@@ -32,17 +32,23 @@ img{
 }
 
 .article__3img {
-    display: block;
-    position: center;
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 23px
 
 }
 
 .article__imgPres {
-    width: 109px;
+    width: 109px; 
+    height: 168px;
+    margin-left: 3%;
 }
 
-.article__imgPres1, .article__imgPres3 {
+.article__imgPres2 {
     position: flex;
-    margin-top: -100px;
-    margin-bottom: auto;
+    margin-top: -40px;
+}
+
+.menu__thermometre {
+    width: 12px;
 }
