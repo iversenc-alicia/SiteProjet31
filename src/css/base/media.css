@@ -26,6 +26,11 @@ img{
     margin-top: -2px;
 }
 
+.header__logo {
+    width: 58px;
+    margin-top: 28px;
+}
+
 .article__3img {
     display: block;
     position: center;
