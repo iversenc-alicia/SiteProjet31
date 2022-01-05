@@ -63,3 +63,36 @@ img{
 .figure__carte {
     width: 41%;
 }
+
+
+.Hero__img2{
+    position: absolute;
+    top: 170px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease;
+    transform: translateX(100%);
+}
+
+.imghide .Hero__img2{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+.hero{
+    overflow: hidden;
+}
+
+.Hero__img1{
+    visibility: visible;
+    opacity: 1;
+    transition: all .4s ease;
+    transform: translateX(0);
+}
+
+
+.imghide .Hero__img1{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-100%);
+}

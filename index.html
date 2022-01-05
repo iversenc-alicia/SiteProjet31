@@ -36,10 +36,11 @@
             </ul>
           </nav>
     </header>
-    <section class="Hero">
-        <img class="Hero__logo" src="./public/img/LogoSite.png" alt="Logo écosys'terre">
+    <section x-data="{Switch: false}" class="Hero" :class="Switch && 'imghide'" >
+        <img  class="Hero__logo" src="./public/img/LogoSite.png" alt="Logo écosys'terre">
     <h1 class="Hero__NomSite">écosys'terre</h1>
-        <img class="Hero__img" src="./public/img/Hero.webp" alt="Cheminée d'une usine"> 
+        <img @pointerdown=" Switch = !Switch" class="Hero__img Hero__img1" src="./public/img/Hero.webp" alt="Cheminée d'une usine"> 
+        <img @pointerdown=" Switch = !Switch" class="Hero__img Hero__img2" src="./public/img/Contact.webp" alt="Foret">
         <div class="Hero__Bleu"></div>
         <p class="Hero__intro">
             Et si l’Homme allait être responsable de la perte de sa planète ? Que doit-il faire pour la sauver
