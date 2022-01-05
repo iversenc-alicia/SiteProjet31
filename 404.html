@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<title>404 - Page Non trouvée</title>
+<h1>Page Non trouvée</h1>
+<form action="https://duckduckgo.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:ecosysterre.iversenc.fr'">
+    <label for="q">Text à chercher :</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
+
+<h2>Les pages du site</h2>
+<nav>   
+    <ul">
+        <li><img class="404__logopage" src="./public/img/home.png" alt="maison"><a class="404__link" href="Index.html">Accueil</a></li>
+        <li><img class="404__logopage" src="./public/img/book-open.png" alt="livre ouvert"><a class="404__link" href="AutreMonde.html">Autre monde</a></li>
+        <li><img class="404__logopage" src="./public/img/film.png" alt="bande de film"><a class="404__link" href="LeJourDapres.html">Le jour d'après</a></li>
+        <li><img class="404__logopage 404__thermometre" src="./public/img/thermometer.png" alt="thermometre"><a class="404__link" href="RechauffementClimatique.html">La terre en danger ?</a></li>
+        <li><img class="404__logopage" src="./public/img/globe.png" alt="globe"><a class="404__link" href="APropos.html">A propos</a></li>
+        <li><img class="404__logopage" src="./public/img/user.png" alt="bonhomme"><a class="404__link" href="Contact.html">Contact</a></li>
+        <li><img class="404__logopage" src="./public/img/folder-plus.png" alt="dossier"><a class="404__link" href="AutresProjets.html">Autre projet</a></li>
+    </ul>
+  </nav>
