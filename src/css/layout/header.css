@@ -1,5 +1,7 @@
 .header__logo {
   width: 58px;
+  position: relative;
+  z-index: 3;
 
 }
 
