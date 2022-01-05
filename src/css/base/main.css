@@ -136,4 +136,6 @@ p {
     font-size: var(--legende);
     font-family: 'open sans';
     text-align: center;
+    margin-top: 8px;
+
 }
