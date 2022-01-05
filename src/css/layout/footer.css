@@ -15,3 +15,9 @@ footer {
     font-weight: lighter;
 }
 
+/*Pour combler le blanc en-dessous du footer car page trop courte pour un IPhone X*/
+.apropos__footer {
+    position: absolute;
+    margin-bottom: 0;
+    padding-bottom: 15%;
+}
